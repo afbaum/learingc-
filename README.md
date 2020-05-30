@@ -1,0 +1,1 @@
+![.NET Core Desktop](https://github.com/afbaum/learingc-/workflows/.NET%20Core%20Desktop/badge.svg)
