@@ -4,8 +4,8 @@ namespace Learning
 {
     class Square
     {
-        public readonly int Sides;
-        public readonly int SideOneLength;
+        public int Sides { get; private set;}
+        public int SideOneLength { get; private set;}
 
         public Square(int sides, int sideLength)
         {

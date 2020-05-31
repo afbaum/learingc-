@@ -6,7 +6,8 @@ namespace Learning
     {
         static void Main(string[] args)
         {
-            Triangles triangle = new Triangles(3,2,3,4);
+            Triangles triangle = new Triangles(3,3,4,5);
+            Console.WriteLine(triangle.Pythagorian());
 
             Square square = new Square(4,6);
             Console.WriteLine(square.Area());
