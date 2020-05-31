@@ -32,8 +32,16 @@ namespace Learning
             else 
             {
                 return "Not a right triangle, bummer dude. ";
-            }
-            
+            }  
+        }
+
+        public string LawOfCosin()
+        {
+            int mathSquar = 2;
+            double angle = (180 / Math.PI) * (Math.Acos((Math.Pow(SideOneLength, mathSquar) + 
+                            Math.Pow(SideTwoLength, mathSquar) - 
+                            Math.Pow(SideThreeLength, mathSquar)) / 2 * SideOneLength * SideTwoLength));
+            return "The angle of side Three is " + angle; 
         }
     }
 
